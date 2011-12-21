@@ -8,10 +8,6 @@
 
 #include <iostream>
 #include <string.h>
-/*
-Глава 2
-Упр. 1.
-*/
 /*Упр. 6.
 void values()
 {   
@@ -38,6 +34,21 @@ long int letersSize = strlen(leters);
 
 }
  */
+/*
+ Глава 2
+ Упр. 1.
+ */
+void exchange() 
+{ 
+    int* temp;
+    int* i;
+    int* j;
+    temp = i;
+    i = j;
+    j = temp;
+    
+    
+}
 int main (int argc, const char * argv[])
 {
     //int i,b; 
