@@ -8,36 +8,8 @@
 
 #include <iostream>
 #include <string.h>
-/*Упр. 6.
-void values()
-{   
-char numbers[] = "0123456789";
-char leters[] = "abcdefghijklmnopqrstuvwxqz";
-long int numbersSize = strlen(numbers);
-long int letersSize = strlen(leters);
-    for (int i=0; i<numbersSize; i++)
-    {
-        char ch = numbers[i];
-        std::cout << '\''<< ch << '\''
-        << " = " <<int(ch)
-        << " = 0" << std::oct(ch)
-        << " = 0x" << std::hex(ch) << '\n';
-    }
-    for (int i=0; i<numbersSize; i++)
-    {
-        char ch1 = numbers[i];
-        std::cout << '\''<< ch1 << '\''
-        << " = " <<int(ch1)
-        << " = 0" << std::oct(ch1)
-        << " = 0x" << std::hex(ch1) << '\n';
-    }
-
-}
- */
-/*
- Глава 2
- Упр. 1.
- */
+#include <math.h>
+ 
 void exchange() 
 { 
     int* temp;

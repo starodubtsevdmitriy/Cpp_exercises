@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EACA89E714A27BEE00CC3F6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EACA89E614A27BEE00CC3F6B /* main.cpp */; };
+		EACA89E914A27BEE00CC3F6B /* Eercise5.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EACA89E814A27BEE00CC3F6B /* Eercise5.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EACA89E014A27BEE00CC3F6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EACA89E914A27BEE00CC3F6B /* Eercise5.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EACA89E214A27BEE00CC3F6B /* Eercise5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Eercise5; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACA89E614A27BEE00CC3F6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EACA89E814A27BEE00CC3F6B /* Eercise5.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Eercise5.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EACA89DF14A27BEE00CC3F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EACA89D714A27BEE00CC3F6B = {
+			isa = PBXGroup;
+			children = (
+				EACA89E514A27BEE00CC3F6B /* Eercise5 */,
+				EACA89E314A27BEE00CC3F6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EACA89E314A27BEE00CC3F6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACA89E214A27BEE00CC3F6B /* Eercise5 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EACA89E514A27BEE00CC3F6B /* Eercise5 */ = {
+			isa = PBXGroup;
+			children = (
+				EACA89E614A27BEE00CC3F6B /* main.cpp */,
+				EACA89E814A27BEE00CC3F6B /* Eercise5.1 */,
+			);
+			path = Eercise5;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EACA89E114A27BEE00CC3F6B /* Eercise5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACA89EC14A27BEE00CC3F6B /* Build configuration list for PBXNativeTarget "Eercise5" */;
+			buildPhases = (
+				EACA89DE14A27BEE00CC3F6B /* Sources */,
+				EACA89DF14A27BEE00CC3F6B /* Frameworks */,
+				EACA89E014A27BEE00CC3F6B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eercise5;
+			productName = Eercise5;
+			productReference = EACA89E214A27BEE00CC3F6B /* Eercise5 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EACA89D914A27BEE00CC3F6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EACA89DC14A27BEE00CC3F6B /* Build configuration list for PBXProject "Eercise5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EACA89D714A27BEE00CC3F6B;
+			productRefGroup = EACA89E314A27BEE00CC3F6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EACA89E114A27BEE00CC3F6B /* Eercise5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EACA89DE14A27BEE00CC3F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACA89E714A27BEE00CC3F6B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EACA89EA14A27BEE00CC3F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EACA89EB14A27BEE00CC3F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EACA89ED14A27BEE00CC3F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EACA89EE14A27BEE00CC3F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EACA89DC14A27BEE00CC3F6B /* Build configuration list for PBXProject "Eercise5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACA89EA14A27BEE00CC3F6B /* Debug */,
+				EACA89EB14A27BEE00CC3F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACA89EC14A27BEE00CC3F6B /* Build configuration list for PBXNativeTarget "Eercise5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACA89ED14A27BEE00CC3F6B /* Debug */,
+				EACA89EE14A27BEE00CC3F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EACA89D914A27BEE00CC3F6B /* Project object */;
+}
