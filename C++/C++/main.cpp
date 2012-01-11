@@ -10,23 +10,8 @@
 #include <string.h>
 #include <math.h>
  
-void exchange() 
-{ 
-    int* temp;
-    int* i;
-    int* j;
-    temp = i;
-    i = j;
-    j = temp;
-    
-    
-}
 int main (int argc, const char * argv[])
 {
-    //int i,b; 
-    //std::cin>>i;
-    //std::cin>>b;
-    //std::cout << i+b << std::endl;
     //insert code here...
     std::cout << "Hello, World!\n";
     std::cout << "sizeof(short) = " <<sizeof(int)<<std::endl;
@@ -40,30 +25,5 @@ int main (int argc, const char * argv[])
 }
 
 /*
-Глава 2
-Упр. 2.
- 
-char ch;                                                   char ch = "i"; 
-int count = 1;                                             int count;
-char* name = "Njal";                                       char* name;
-struct complex { float re, im; };                          struct complex;
-complex cvar;                                              complex cvar(1.0, 2.0)
-extern complex sqrt(complex);                              extern complex sqrt(complex){/.../};
-extern int error_number;                                   extern int error_number{/.../};
-typedef complex point;                                     typedef complex point{/.../};
-float real(complex* p) { return p->re; };                  float real(complex* p)
-const double pi = 3.1415926535897932385;                   const double pi;
-struct user;                                               struct user{/.../};
-template<class T> abs(T a) { return a<0 ? -a : a; }        template<class T> abs(T a);
-enum beer { Carlsberg, Tuborg, Thor };                     enum beer;
-
-Упр. 3.
-cahr* ch = "!";
-int i[10] = {0,1,2,3,4,5,6,7,8,9};
-int &i[10] = {0,1,2,3,4,5,6,7,8,9};
-char (*i)[]= "123";
-char** ch = "2";
-int const i = 6;
-const int* i = 1;
 */
 

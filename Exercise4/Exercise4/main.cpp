@@ -18,6 +18,5 @@ int main (int argc, const char * argv[])
     std::cout << "sizeof(float) = " <<sizeof(float)<<std::endl;
     std::cout << "sizeof(double long) = " <<sizeof(double long)<<std::endl;
     std::cout << "sizeof(double) = " <<sizeof(double)<<std::endl;
-
 }
 
