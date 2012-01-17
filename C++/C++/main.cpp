@@ -12,6 +12,7 @@
  
 int main (int argc, const char * argv[])
 {
+    
     //insert code here...
     std::cout << "Hello, World!\n";
     std::cout << "sizeof(short) = " <<sizeof(int)<<std::endl;
@@ -21,6 +22,8 @@ int main (int argc, const char * argv[])
     std::cout << "sizeof(float) = " <<sizeof(float)<<std::endl;
     std::cout << "sizeof(double long) = " <<sizeof(double long)<<std::endl;
     std::cout << "sizeof(double) = " <<sizeof(double)<<std::endl;
+    int *pt0 = 0;
+    std::cout << &pt0<<std::endl;
     return 0;
 }
 

@@ -23,7 +23,7 @@ int main (int argc, const char * argv[])
             char ch = numbers[i];
             std::cout << '\''<< ch << '\''
             << " = " <<int(ch)<< '\n';
-          //<< " = 0" << std::oct(ch)
+          //<< " = 0" << std::oct(ch) << '\n';
           //<< " = 0x" << std::hex(ch) << '\n';
         }
         for (int j=0; j<letersSize; j++)
@@ -31,7 +31,7 @@ int main (int argc, const char * argv[])
             char ch1 = leters[j];
             std::cout << '\''<< ch1 << '\''
             << " = " <<int(ch1)<< '\n';
-         // << " = 0" << std::oct(ch1)
+         // << " = 0" << std::oct(ch1) << '\n';
          // << " = 0x" << std::hex(ch1) << '\n';
         }
         
