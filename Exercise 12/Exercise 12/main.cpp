@@ -13,32 +13,57 @@
 #include <string.h>
 int main (int argc, const char * argv[])
 {
+    struct Months
+    {
+        std::string namesOfMonths[12];
+        int dayInEachMonths[3];
+    };
+    Months tabl;
     std::string months[]={"January","February","Mach","April","May","June","July","August","September","October","November","December"};
     int days[]={28,30,31};
     for (int i = 0; i < 12; i++)
     {
-      std::cout<<months[i]<<" ";
-        if (i != 1) {
+        tabl.namesOfMonths[i] = months[i];
+        if (i < 3) 
+        {
+            tabl.dayInEachMonths[i] = days[i];
+        }
+        std::cout<<months[i]<<" ";
+        if (i != 1)
+        {
         if((i+1)%2 == 0)
-        {
-           std::cout<<days[1]<<'\n';
-        }
+            {
+                std::cout<<days[1]<<'\n';
+            }
         else 
-        {
-           std::cout<<days[2]<<'\n'; 
-        }
+            {
+                std::cout<<days[2]<<'\n'; 
+            }
         }
         else
         {
             std::cout<<days[0]<<'\n'; 
         }
-        
     }
-    struct months
+    std::cout<<std::endl;
+    for (int j = 0; j < 12; j++)
     {
-        std::string* naymsOfMonths[1];
-        int* DayInEachMonths[3];
-    };
-    char str[15] ={"a short string"};
+        std::cout<<tabl.namesOfMonths[j]<<" ";
+        if (j != 1)
+        {
+            if((j+1)%2 == 0)
+            {
+                std::cout<<tabl.dayInEachMonths[1]<<'\n';
+            }
+            else 
+            {
+                std::cout<<tabl.dayInEachMonths[2]<<'\n';
+            }
+        }
+        else
+        {
+            std::cout<<tabl.dayInEachMonths[0]<<'\n';
+        }
     }
+}
 
