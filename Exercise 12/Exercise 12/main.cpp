@@ -35,7 +35,7 @@ int main (int argc, const char * argv[])
             {
                 std::cout<<days[1]<<'\n';
             }
-        else 
+            else
             {
                 std::cout<<days[2]<<'\n'; 
             }
