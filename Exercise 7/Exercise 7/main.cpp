@@ -11,12 +11,11 @@
 
 void showDouble(double d)
 {
-	int i=0;
-    
-	while ( pow(d,2) > 100) 
+	int order=0;
+    while ( pow(d,2) > 100) 
 	{
 		d /= 10;
-		i++;
+		order++;
 	}
     char sign[]="+-";
     if (d < 0)
@@ -29,7 +28,7 @@ void showDouble(double d)
         std::cout << "Sign:" << sign[0] << std::endl;
     }
 	std::cout << "mantissa = " << d <<std::endl;
-	std::cout << "Order = " << i <<std::endl;
+	std::cout << "Order = " << order <<std::endl;
 }
 
 int main()
