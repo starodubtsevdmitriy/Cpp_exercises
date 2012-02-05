@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA74138314DEE8A400E48C54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA74138214DEE8A400E48C54 /* main.cpp */; };
+		EA74138514DEE8A400E48C54 /* Exercise_3.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA74138414DEE8A400E48C54 /* Exercise_3.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA74137C14DEE8A400E48C54 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EA74138514DEE8A400E48C54 /* Exercise_3.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA74137E14DEE8A400E48C54 /* Exercise 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Exercise 3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA74138214DEE8A400E48C54 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EA74138414DEE8A400E48C54 /* Exercise_3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Exercise_3.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA74137B14DEE8A400E48C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA74137314DEE8A400E48C54 = {
+			isa = PBXGroup;
+			children = (
+				EA74138114DEE8A400E48C54 /* Exercise 3 */,
+				EA74137F14DEE8A400E48C54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA74137F14DEE8A400E48C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA74137E14DEE8A400E48C54 /* Exercise 3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA74138114DEE8A400E48C54 /* Exercise 3 */ = {
+			isa = PBXGroup;
+			children = (
+				EA74138214DEE8A400E48C54 /* main.cpp */,
+				EA74138414DEE8A400E48C54 /* Exercise_3.1 */,
+			);
+			path = "Exercise 3";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA74137D14DEE8A400E48C54 /* Exercise 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA74138814DEE8A400E48C54 /* Build configuration list for PBXNativeTarget "Exercise 3" */;
+			buildPhases = (
+				EA74137A14DEE8A400E48C54 /* Sources */,
+				EA74137B14DEE8A400E48C54 /* Frameworks */,
+				EA74137C14DEE8A400E48C54 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Exercise 3";
+			productName = "Exercise 3";
+			productReference = EA74137E14DEE8A400E48C54 /* Exercise 3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA74137514DEE8A400E48C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EA74137814DEE8A400E48C54 /* Build configuration list for PBXProject "Exercise 3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA74137314DEE8A400E48C54;
+			productRefGroup = EA74137F14DEE8A400E48C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA74137D14DEE8A400E48C54 /* Exercise 3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA74137A14DEE8A400E48C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA74138314DEE8A400E48C54 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA74138614DEE8A400E48C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA74138714DEE8A400E48C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA74138914DEE8A400E48C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA74138A14DEE8A400E48C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA74137814DEE8A400E48C54 /* Build configuration list for PBXProject "Exercise 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA74138614DEE8A400E48C54 /* Debug */,
+				EA74138714DEE8A400E48C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA74138814DEE8A400E48C54 /* Build configuration list for PBXNativeTarget "Exercise 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA74138914DEE8A400E48C54 /* Debug */,
+				EA74138A14DEE8A400E48C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA74137514DEE8A400E48C54 /* Project object */;
+}
